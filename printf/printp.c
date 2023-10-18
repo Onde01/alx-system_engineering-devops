@@ -10,7 +10,7 @@ int print_pointer(va_list val)
 
 {
 
-	void *p
+	void *p;
         char *s = "(nil)";
 	long int a;
 	int i, b;

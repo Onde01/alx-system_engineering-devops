@@ -20,9 +20,9 @@ int print_hex_extra(unsigned long int num)
 		counter++;
 	}
 	counter++;
-	array = malloc(sizeof(long int) = counter);
+	array = malloc(sizeof(long int)); 
 	if (array == NULL)
-		return (NULL);
+		return (0);
 	for (i = 0; i < counter; i++)
 	{
 		array[i] = tem % 16;

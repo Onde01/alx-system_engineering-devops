@@ -1,4 +1,6 @@
-#
+#include <stdarg.h>
+#include "main.h"
+
 /**
  * print_exc_string - prints a string
  *@val: value
@@ -29,7 +31,7 @@ int print_exc_string(va_list val)
 				_putchar('0');
 				len++;
 			}
-			len = len + print_HEX_extra(value);
+			len = len + print_hex_extra(value);
 		}
 		else
 		{
